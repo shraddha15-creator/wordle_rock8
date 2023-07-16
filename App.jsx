@@ -79,6 +79,9 @@ function App() {
       setGuessIndex(0);
     }
   }, [gameComplete]);
+  console.log('====================================');
+  console.log(activeWord);
+  console.log('====================================');
   return (
     <SafeAreaView style={styles.container}>
       <Header />
